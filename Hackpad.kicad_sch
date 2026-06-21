@@ -1566,6 +1566,12 @@
 		(uuid "e2967375-e5d8-459b-b004-999c0a8dc68e")
 	)
 	(junction
+		(at 189.23 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e30bbae2-d35a-4f63-ac57-f1a2b9579600")
+	)
+	(junction
 		(at 147.32 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1617,7 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 133.35) (xy 187.96 133.35)
+			(xy 127 133.35) (xy 185.42 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1644,6 +1650,16 @@
 			(type default)
 		)
 		(uuid "0db87327-ec7a-4748-b8ad-981347042e58")
+	)
+	(wire
+		(pts
+			(xy 123.19 116.84) (xy 123.19 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138cebe3-4261-4c09-ace5-f0b342782e22")
 	)
 	(wire
 		(pts
@@ -2077,6 +2093,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 124.46) (xy 127 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a95b50-3ab3-455c-9ae0-27750e6be09b")
+	)
+	(wire
+		(pts
 			(xy 101.6 144.78) (xy 104.14 144.78)
 		)
 		(stroke
@@ -2084,16 +2110,6 @@
 			(type default)
 		)
 		(uuid "b91dc5d4-4fa1-4c0a-b967-135c50577560")
-	)
-	(wire
-		(pts
-			(xy 123.19 116.84) (xy 123.19 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba88ffde-e3a2-491c-978c-1588fd6e80dc")
 	)
 	(wire
 		(pts
@@ -2187,6 +2203,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 121.92) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa208dc-a7be-4772-a4c2-84b3bad1418b")
+	)
+	(wire
+		(pts
 			(xy 101.6 101.6) (xy 104.14 101.6)
 		)
 		(stroke
@@ -2194,16 +2220,6 @@
 			(type default)
 		)
 		(uuid "d2001ff5-7a44-415b-b7d6-1c436e2cc2cd")
-	)
-	(wire
-		(pts
-			(xy 119.38 124.46) (xy 127 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9b4a78d-99af-4b76-8690-7f3ce49db4f4")
 	)
 	(wire
 		(pts
@@ -2217,16 +2233,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 121.92) (xy 127 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de9c5079-a8a8-42dc-a651-20b63228f458")
-	)
-	(wire
-		(pts
 			(xy 86.36 132.08) (xy 172.72 132.08)
 		)
 		(stroke
@@ -2237,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 90.17) (xy 189.23 90.17)
+			(xy 185.42 90.17) (xy 189.23 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 133.35) (xy 187.96 90.17)
+			(xy 185.42 133.35) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2385,18 +2391,8 @@
 		)
 		(uuid "02eaeea7-3e78-49e1-bb26-9f071cb0e743")
 	)
-	(label "OLED"
-		(at 123.19 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ace4ae1-f32d-478f-99d4-90c88b6b5334")
-	)
-	(label "OLED"
-		(at 123.19 121.92 0)
+	(label "OLED_SDA"
+		(at 124.46 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
